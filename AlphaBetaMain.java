@@ -5,8 +5,8 @@ import java.util.Scanner;
 import algorithm.MiniMax;
 
 public class AlphaBetaMain {
-	public static final int MAX=-1000000;
-	public static final int MIN=+1000000;
+	public static final int MAX=-10000000;
+	public static final int MIN=+10000000;
 
 	public static void main(String[] args) {
 
