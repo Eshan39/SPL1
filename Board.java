@@ -154,6 +154,7 @@ public class Board {
 							board[i+1][j-1]=temp;
 							
 							System.out.println(toString());
+							
 							break A;
 
 						}
@@ -178,7 +179,7 @@ public class Board {
 					
 					for(int j=1;j<board[0].length-1;j++) {
 					 
-						try {
+					try {
 						
 					 if(board[i][j]==3 &&board[i-1][j+1]==1&&board[i-2][j+2]==0) {
 							
