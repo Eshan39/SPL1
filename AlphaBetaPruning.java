@@ -7,6 +7,7 @@ public class AlphaBetaPruning {
 		
 		public AlphaBetaPruning()
 		{
+			//default constructor
 			
 		}
 		
